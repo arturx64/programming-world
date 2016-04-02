@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Programming world
+email: arturx@256@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to the programming world. This website contains helpful information for C++ developers which can help you in your work or education.
+baseurl: "/programming-world" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  arturx64
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-73369259-1'
+      
+# Build settings
+markdown: kramdown
